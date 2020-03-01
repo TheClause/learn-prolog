@@ -126,8 +126,8 @@ And that's all it takes. Gaze upon the beauty of Prolog.
 ## Going Further
 
 - The facts we wrote are hard-coded. In practice, these can be loaded from a database.
-- The concept of roles and permissions can be abstracted further, making our data even more serialization-friendly. We'll cover this in a future post.
 - [SWI Prolog](https://www.swi-prolog.org/pldoc/doc_for?object=manual) has HTTP and Docker support, so it's possible to host a "logic server" that answers questions for the other web services in your network.
+- The concept of roles and permissions can be decoupled and abstracted further, making our data even more serialization-friendly. This is covered in [Part 2](./permission-system-2.md).
 
 
 ## Full Code

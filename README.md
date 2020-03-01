@@ -19,14 +19,20 @@ Feel free to [ping me on gitter](https://gitter.im/fogfish) if you have any ques
 <!-- ## Table of Contents -->
 
 <!-- - [Articles](#Articles) -->
+<!-- - [Fundamentals](#Fundamentals) -->
 <!-- - [Resources](#Resources) -->
 
 ## Articles
 
-- Building a user permissions system ([part 1](https://dev.to/gilbert/write-a-user-permissions-system-in-5-lines-of-prolog-mof))
+- Building a user permissions system ([part 1](https://dev.to/gilbert/write-a-user-permissions-system-in-5-lines-of-prolog-mof), [part 2](https://dev.to/theclause/write-a-role-permissions-system-in-14-lines-of-prolog-part-2-371n))
+
+## Fundamentals
+
+- [Defining custom operators](http://www.amzi.com/AdventureInProlog/a12oper.php)
 
 ## Resources
 
+- [SWI Prolog forums](https://swi-prolog.discourse.group) - for deeper discussions and troubleshooting
 - [Awesome Prolog](https://github.com/klaussinani/awesome-prolog#resources)
 - [Full-featured online environment](https://swish.swi-prolog.org) (SWI)
 - [JavaScript-based browser environment](http://tau-prolog.org/sandbox/)
