@@ -25,10 +25,12 @@ Feel free to [ping me on gitter](https://gitter.im/fogfish) if you have any ques
 ## Articles
 
 - Building a user permissions system ([part 1](https://dev.to/gilbert/write-a-user-permissions-system-in-5-lines-of-prolog-mof), [part 2](https://dev.to/theclause/write-a-role-permissions-system-in-14-lines-of-prolog-part-2-371n))
+- Setting Up Unit Testing In SWI-Prolog ([link](http://www.paulbrownmagic.com/blog/swi_prolog_unit_testing_env.html))
 
 ## Fundamentals
 
 - [Defining custom operators](http://www.amzi.com/AdventureInProlog/a12oper.php)
+- [Modules](https://www.swi-prolog.org/pldoc/man?section=modules)
 
 ## Resources
 
