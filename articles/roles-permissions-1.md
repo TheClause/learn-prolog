@@ -156,7 +156,7 @@ moderator(bob,   boxing).
 
 can(User, Club, ban_user, Target) :-
   moderator(User, Club),
+  dif(User, Target),
   member(Target, Club),
-  \+ moderator(Target, Club),
-  dif(User, Target).
+  \+ moderator(Target, Club).
 ```
