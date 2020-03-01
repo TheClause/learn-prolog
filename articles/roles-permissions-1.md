@@ -1,4 +1,4 @@
-## Building a Permission System: Part 1
+## Building a Roles & Permissions System: Part 1
 
 Logic programming is something all developers should learn. It isn't actually that hard, and simply knowing **what's possible** will positively influence you in choosing better tools, for now and the future.
 

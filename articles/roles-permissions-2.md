@@ -1,4 +1,4 @@
-## Building a Permission System: Part 2
+## Building a Roles & Permissions System: Part 2
 
 [Part 1](./permission-system-1.md) showed how to implement a `moderator` role with hardcoded permissions. In this post we will implement a more scalable system where roles & permissions are properly decoupled.
 
