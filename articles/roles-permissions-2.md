@@ -332,10 +332,14 @@ can(Actor, Club, Action, Target) :-
   call(Action, Actor, Club, Target).
 
 %
-% Action-specific validation
+% Action-specific validations
 %
 ban_user(Actor, Club, Target) :-
+  dif(Actor, Target),
   member(Target, Club),
-  \+ user_has_permission(Target, Club, ban_protection),
-  dif(Actor, Target).
+  \+ user_has_permission(Target, Club, ban_protection),.
+
+promote_to_mod(_Actor, Club, Target) :-
+  member(Target, Club),
+  \+ role(Target, Club, _).
 ```
