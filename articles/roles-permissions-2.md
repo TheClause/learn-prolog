@@ -288,6 +288,8 @@ In those few lines of code, we were able to:
 
 The next post in this series will extend our system with **error messages**, allowing the system to know **why** a user's action was rejected.
 
+## Full Code
+
 ```prolog
 %
 % List of facts (also known as "the database")
