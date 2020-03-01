@@ -287,3 +287,53 @@ In those few lines of code, we were able to:
 - Build it in such a way that is super easy to extend!
 
 The next post in this series will extend our system with **error messages**, allowing the system to know **why** a user's action was rejected.
+
+```prolog
+%
+% List of facts (also known as "the database")
+%
+member(alice, boxing).
+member(bob,   boxing).
+member(carly, boxing).
+member(dan,   boxing).
+
+member(alice, chess).
+member(bob,   chess).
+
+role(alice, boxing, admin).
+role(bob,   boxing, moderator).
+role(bob,   chess,  moderator).
+
+role_inherits(admin, moderator).
+
+permission(admin, promote_to_mod).
+permission(moderator, ban_user).
+permission(moderator, ban_protection).
+
+%
+% Role & Permissions logic
+%
+role_has_permission(Role, Action) :- permission(Role, Action).
+role_has_permission(Role, Action) :-
+  role_inherits(Role, Child),
+  role_has_permission(Child, Action).
+
+user_has_permission(User, Club, Action) :-
+  role(User, Club, Role),
+  role_has_permission(Role, Action).
+
+%
+% A dash of metaprogramming for good software design
+%
+can(Actor, Club, Action, Target) :-
+  user_has_permission(Actor, Club, Action),
+  call(Action, Actor, Club, Target).
+
+%
+% Action-specific validation
+%
+ban_user(Actor, Club, Target) :-
+  member(Target, Club),
+  \+ user_has_permission(Target, Club, ban_protection),
+  dif(Actor, Target).
+```
