@@ -24,7 +24,7 @@ Feel free to [ping me on gitter](https://gitter.im/fogfish) if you have any ques
 
 ## Introductions to Prolog
 
-- [Prologue to Prolog](https://twitter.com/ThePrologClause/status/1500642533940023302) (36m)
+- [Prologue to Prolog](https://twitter.com/ThePrologClause/status/1500642533940023302) (36m) ([slides](assets/prologue-to-prolog.pdf))
 - [Programmation en Logique (Programming in Logic)](https://www.youtube.com/watch?v=VjJQQTfxuP0) (42m)
 
 ## Articles
