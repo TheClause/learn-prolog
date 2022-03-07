@@ -12,7 +12,7 @@ If you want to support The Clause and help pave the way forward, you can:
 
 - [Join the discussion](https://gitter.im/TheClause/community) on gitter.
 - Write articles that are relevant to mainstream web developers.
-- Support The Clause [on Patreon]().
+- Follow The Clause [on Twitter!](https://twitter.com/ThePrologClause)
 
 Feel free to [ping me on gitter](https://gitter.im/fogfish) if you have any questions.
 
@@ -22,10 +22,16 @@ Feel free to [ping me on gitter](https://gitter.im/fogfish) if you have any ques
 <!-- - [Fundamentals](#Fundamentals) -->
 <!-- - [Resources](#Resources) -->
 
+## Introductions to Prolog
+
+- [Prologue to Prolog](https://twitter.com/ThePrologClause/status/1500642533940023302) (36m)
+- [Programmation en Logique (Programming in Logic)](https://www.youtube.com/watch?v=VjJQQTfxuP0) (42m)
+
 ## Articles
 
 - Building a user permissions system ([part 1](https://dev.to/gilbert/write-a-user-permissions-system-in-5-lines-of-prolog-mof), [part 2](https://dev.to/theclause/write-a-role-permissions-system-in-14-lines-of-prolog-part-2-371n))
 - Setting Up Unit Testing In SWI-Prolog ([link](http://www.paulbrownmagic.com/blog/swi_prolog_unit_testing_env.html))
+- Functional Prolog: Map, Filter, and Reduce ([link](https://pbrown.me/blog/functional-prolog-map-filter-and-reduce/))
 
 ## Fundamentals
 
